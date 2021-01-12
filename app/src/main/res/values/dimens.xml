@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- 基本走势   -->
+    <dimen name="jibenzoushi_content_textview_width">20dp</dimen>
+    <dimen name="jibenzoushi_qihao_textview_width">75dp</dimen>
+
+    <dimen name="jibendouzhi_text_size">10sp</dimen>
+
+    <dimen name="jibensouzhi_padding">1px</dimen>
+
+
+</resources>

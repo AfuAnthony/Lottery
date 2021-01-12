@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_item_tv"
+    android:layout_width="@dimen/jibenzoushi_content_textview_width"
+    android:layout_height="@dimen/jibenzoushi_content_textview_width"
+    android:background="@color/jibenzoushi_green_back"
+    android:gravity="center"
+    android:minWidth="@dimen/jibenzoushi_content_textview_width"
+    android:minHeight="@dimen/jibenzoushi_content_textview_width"
+    android:textColor="@color/jibenzoushi_black"
+    android:textSize="@dimen/jibendouzhi_text_size">
+
+</TextView>

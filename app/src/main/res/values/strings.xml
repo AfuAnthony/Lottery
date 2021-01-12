@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LotteryProject</string>
+
+
+    <!--    基本走势-->
+    <string name="qihao">期号</string>
+</resources>

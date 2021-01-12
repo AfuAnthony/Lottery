@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LotterTextViewP">
+        <attr name="back_high_light" format="color"></attr>
+        <attr name="text_hight_light" format="color"></attr>
+        <attr name="text_gray" format="color"></attr>
+    </declare-styleable>
+
+</resources>

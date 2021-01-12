@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.anthonyh.custom.widgets.LotterTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/hor_tv"
+    android:layout_width="@dimen/jibenzoushi_content_textview_width"
+    android:layout_height="@dimen/jibenzoushi_content_textview_width"
+    android:background="@color/jibenzoushi_gray_back"
+    android:gravity="center"
+    android:minWidth="@dimen/jibenzoushi_content_textview_width"
+    android:minHeight="@dimen/jibenzoushi_content_textview_width"
+    android:text="123"
+    android:textSize="@dimen/jibendouzhi_text_size"
+    app:text_gray="@android:color/darker_gray"
+    app:text_hight_light="@android:color/white">
+
+</com.anthonyh.custom.widgets.LotterTextView>

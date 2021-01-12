@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sub_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/sub_header_linealayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/jibenzoushi_content_textview_width"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/qihao_textview"
+            android:layout_width="@dimen/jibenzoushi_qihao_textview_width"
+            android:layout_height="@dimen/jibenzoushi_content_textview_width"
+            android:background="@color/jibenzoushi_green_back"
+            android:gravity="center"
+            android:text="@string/qihao"
+            android:textSize="@dimen/jibendouzhi_text_size" />
+
+        <com.anthonyh.custom.widgets.AfuHorRecyclerView
+            android:id="@+id/header_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/jibenzoushi_content_textview_width" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

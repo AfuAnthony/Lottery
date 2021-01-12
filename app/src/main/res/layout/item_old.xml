@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/item_head_tv"
+        android:layout_width="@dimen/jibenzoushi_qihao_textview_width"
+        android:layout_height="@dimen/jibenzoushi_content_textview_width"
+        android:layout_marginTop="@dimen/jibensouzhi_padding"
+        android:layout_marginRight="@dimen/jibensouzhi_padding"
+        android:layout_marginBottom="@dimen/jibensouzhi_padding"
+        android:background="@color/jibenzoushi_gray_back"
+        android:gravity="center"
+        android:text="20201202"
+        android:textColor="@color/jibenzoushi_black"
+        android:textSize="@dimen/jibendouzhi_text_size" />
+
+    <com.anthonyh.custom.widgets.AfuHorRecyclerView
+        android:id="@+id/item_hor_recycleview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

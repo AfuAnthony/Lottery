@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/qihao_textview"
+        android:layout_width="@dimen/jibenzoushi_qihao_textview_width"
+        android:layout_height="@dimen/jibenzoushi_content_textview_width"
+        android:background="@color/jibenzoushi_green_back"
+        android:gravity="center"
+        android:text="@string/qihao"
+        android:textSize="@dimen/jibendouzhi_text_size" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/qihao_textview">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/hor_header_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.anthonyh.custom.widgets.SyncSrollRecyclerView
+                android:id="@+id/content_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <com.anthonyh.custom.widgets.SyncSrollRecyclerView
+        android:id="@+id/ver_header_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/qihao_textview" />
+
+
+</RelativeLayout>
